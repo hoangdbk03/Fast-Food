@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THÔNG TIN HÓA ĐƠN"
+            android:fontFamily="@font/semibold"
+            android:textColor="@color/purple_700"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="1dp"
+            android:background="#AAA9A9"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mã hóa đơn:"
+                />
+
+            <TextView
+                android:id="@+id/txtMaHDCT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/regular"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mã khách hàng:"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/txtMaKH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/regular"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên khách hàng:"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/txtTenKH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/regular"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tên sản phẩm:"
+                />
+
+            <TextView
+                android:id="@+id/txtTenSP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/regular"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giá:"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/txtGiaTien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/regular"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFCECE"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/txtTrangThai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txtNgay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnThanhToan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yêu cầu thanh toán"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

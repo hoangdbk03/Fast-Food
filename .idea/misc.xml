@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable-v24/custom_butom3.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable-v24/ic_delete.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/cat_background1.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/cat_background2.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/cat_background3.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/cat_background4.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/custom_button.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/custom_edit_qlclsp.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/custom_input.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/custom_line.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/custom_line_vuong.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/custom_view_recycler.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/header_background.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/search_custom.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/search_icon.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/drawable/start_button.xml" value="0.17" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/activity_details.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/activity_login.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/activity_man_hinh_cho.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/activity_qlclsan_pham.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/activity_qlhoa_don.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/activity_qlnguoi_dung.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/activity_qlsan_pham.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/activity_thong_ke.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/dialog_doimatkhau.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/dialog_sua_clsp.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/dialog_sua_khachhang.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/dialog_sua_sanpham.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/dialog_them_clsp.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/dialog_them_hoadon.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/dialog_them_khachhang.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/dialog_them_sanpham.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/dialog_xacnhan.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/fragment_blank.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/fragment_favorite.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/fragment_home.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/fragment_order.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/fragment_user.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/item_photo.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/item_recycler_favorite.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/item_recycler_hoadon.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/item_recycler_khachhang.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/item_recycler_qlclsp.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/item_recycler_sanpham.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/popular_item.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/layout/recommend_item.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/FastFood/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.1331521739130435" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThongKeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/btnBackThongKe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:tint="#009688"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thống Kê Doanh Thu"
+            android:textSize="20sp"
+            android:textColor="#009688"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:text="Bắt đầu từ "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#FF5900"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/ic_calendar"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="@color/white"
+            >
+            <EditText
+                android:id="@+id/edtStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Chọn ngày bắt đầu"
+                android:textStyle="bold"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:text="Đến ngày"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#FF5900"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/ic_calendar"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="@color/white"
+            >
+
+            <EditText
+                android:id="@+id/edtEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Chọn ngày kết thúc"
+                android:textStyle="bold"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/btnThongKe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thống kê"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtKetQua"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_butom3"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgViewBottom"
+        />
+
+</LinearLayout>
